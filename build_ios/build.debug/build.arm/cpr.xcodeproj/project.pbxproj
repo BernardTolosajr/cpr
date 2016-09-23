@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		33A803EC791743D3B53F076D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35D5AA47039E4EB78F1595D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C602617E80284D378F278211 /* CMake Rules */,
+			);
+			dependencies = (
+				61A96D9B18104D99B9912462 /* PBXTargetDependency */,
+				3012D8FB23994F0AB7C19714 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		4B7937E5BF284B8FBA8E81AD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A898A598C13A4622B6120E09 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F9C00D2433764C9FA2599E8D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0504D48776764F8ABF6A3D35 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/defines.h */ = {isa = PBXBuildFile; fileRef = D6497B9D314B40B9B9B1511F /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/defines.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0627D6D3EAB04447B759F906 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/payload.h */ = {isa = PBXBuildFile; fileRef = 8BEFD9B99574450EAD3F29B3 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/payload.h */; settings = {COMPILER_FLAGS = ""; }; };
+		09415542DA584E97B9065639 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AC42EBA4333B4063B12B04C5 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		11E2E2164EA74E1290AC8698 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cookies.cpp */ = {isa = PBXBuildFile; fileRef = 6AC56954A57C4D5287EBFB33 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cookies.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		14B7DC51A18E410B846550BB /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cprtypes.cpp */ = {isa = PBXBuildFile; fileRef = 3F395CF34D1C412EA96CD77E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cprtypes.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		195F88B377974F51B600C254 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/auth.h */ = {isa = PBXBuildFile; fileRef = 3408DEE962CB41489199B39D /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/auth.h */; settings = {COMPILER_FLAGS = ""; }; };
+		32E7D044B3044B85B7EDDBC0 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/proxies.h */ = {isa = PBXBuildFile; fileRef = FF4CA624B6CA4B97A2355572 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/proxies.h */; settings = {COMPILER_FLAGS = ""; }; };
+		38E377CC190144CF8766F10C /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/body.h */ = {isa = PBXBuildFile; fileRef = F581A64E5E554CE28FA8FB10 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/body.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3EF7F680B1DA4378817C8765 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/error.cpp */ = {isa = PBXBuildFile; fileRef = 3598ECAB595B4F93B9ACF91D /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/error.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		42612850F7224C1EA8A1CAD5 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/multipart.h */ = {isa = PBXBuildFile; fileRef = 8540CDD088234855B193F020 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/multipart.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4FC1FA3173914403B77F8D4E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/error.h */ = {isa = PBXBuildFile; fileRef = 1868981B8C8F44B8B3D40922 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/error.h */; settings = {COMPILER_FLAGS = ""; }; };
+		53008642206847D5A05FD239 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/digest.cpp */ = {isa = PBXBuildFile; fileRef = A406AEC1652E404199CF1B09 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/digest.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		607E7DBA4B3D4D15AC347ABB /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/digest.h */ = {isa = PBXBuildFile; fileRef = 865EB356FB8A40879445AE64 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/digest.h */; settings = {COMPILER_FLAGS = ""; }; };
+		622328E1294847E8BE9A5927 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cpr.h */ = {isa = PBXBuildFile; fileRef = 4E23451099D14F3F84EDBE49 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cpr.h */; settings = {COMPILER_FLAGS = ""; }; };
+		637B842507A340D28D98EB46 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/auth.cpp */ = {isa = PBXBuildFile; fileRef = 29635696952A45C3821A4A4E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/auth.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		63CAE1DCDDA94996A0089CDE /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/response.h */ = {isa = PBXBuildFile; fileRef = 51C3E28664BC40C6B0F7FE23 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/response.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7173EC4AD4A94254AB075A27 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/util.cpp */ = {isa = PBXBuildFile; fileRef = 8E0D74439573445EBF853144 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/util.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		88C17688D71945F7A8B82B27 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/proxies.cpp */ = {isa = PBXBuildFile; fileRef = 3BAB1003BD324F50A8CB993F /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/proxies.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8C0CDDF302314061AB204BBA /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/parameters.cpp */ = {isa = PBXBuildFile; fileRef = A1A67F02F1574A6DB440419B /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/parameters.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		96EF35230D1644B996444AF0 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/parameters.h */ = {isa = PBXBuildFile; fileRef = 34D1CD82F91642AAB2B8DFCA /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/parameters.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9E5FC02DA9054D16903037B6 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/session.cpp */ = {isa = PBXBuildFile; fileRef = EA755179662449F7A0692586 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/session.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A56CA1B182AE4EC6BF856BAA /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/session.h */ = {isa = PBXBuildFile; fileRef = BFFD073D1C34449FB46E9AD3 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/session.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BA351128118E48E58A1F3E27 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/api.h */ = {isa = PBXBuildFile; fileRef = 126D856C82A34B9F9C629F44 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/api.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C4E5172C712541EC8D880D9E /* /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr/CMakeFiles/cpr.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 85C8198E630B48B38B344280 /* /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr/CMakeFiles/cpr.dir/Info.plist */; settings = {COMPILER_FLAGS = ""; }; };
+		D03DB23D3C3A4A8F9DDCAC3A /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/curlholder.h */ = {isa = PBXBuildFile; fileRef = C1247181214640EB95211D03 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/curlholder.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D0A9C479530D40BFAF60FFF9 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/timeout.h */ = {isa = PBXBuildFile; fileRef = 463A4C2909424F738BF5FF66 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/timeout.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D8BDF2B24E1549038171CDEE /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/multipart.cpp */ = {isa = PBXBuildFile; fileRef = C736D0BA9F224C2BA5CC0BBE /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/multipart.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E21BFFBD11A240639B48C2E5 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/payload.cpp */ = {isa = PBXBuildFile; fileRef = 9CA2E2ED6239407EAC25F930 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/payload.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E2EBBAD14DAB4E9D9AAEF420 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cprtypes.h */ = {isa = PBXBuildFile; fileRef = 1DD9B1EB8B894F13A3258F82 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cprtypes.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E427C52FF6CE470B8BEDF704 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/util.h */ = {isa = PBXBuildFile; fileRef = DA15E327DE5240AE93F554E6 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/util.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E559FF11B7B34DF5B2429A59 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/max_redirects.h */ = {isa = PBXBuildFile; fileRef = CAFFFFF1C61449F08B086824 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/max_redirects.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FCC64715493E4F64AB6F0140 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cookies.h */ = {isa = PBXBuildFile; fileRef = EC24CE7778824C11AE32183A /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cookies.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		45630E2C1C054E8E8D8C6A28 = {
+			isa = PBXBuildStyle;
+		};
+		8314A3E9F8704A9880ACA325 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9F7AE9F6A6264111AC962228 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A19F14F3396B4BD3A780F71D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B6D3A975761748869F2C7D1D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		29CD6C9CB1BE4360BD839110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0871BBB5314BCCB8DF6292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7937E5BF284B8FBA8E81AD;
+			remoteInfo = ZERO_CHECK;
+		};
+		6A65B4D9B58F45CBA6EEE0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0871BBB5314BCCB8DF6292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7937E5BF284B8FBA8E81AD;
+			remoteInfo = ZERO_CHECK;
+		};
+		7F4B259D9AFE42A98F87ACD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0871BBB5314BCCB8DF6292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D0F3B8C3EB4C4294F39A56;
+			remoteInfo = cpr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052FF8FBFFCA4A6CBF556C90 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		126D856C82A34B9F9C629F44 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = api.h; path = include/cpr/api.h; sourceTree = SOURCE_ROOT; };
+		1868981B8C8F44B8B3D40922 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/error.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = error.h; path = include/cpr/error.h; sourceTree = SOURCE_ROOT; };
+		1DD9B1EB8B894F13A3258F82 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cprtypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cprtypes.h; path = include/cpr/cprtypes.h; sourceTree = SOURCE_ROOT; };
+		2091E47DAD8D4A9F93A7D759 /* cpr */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcpr.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		29635696952A45C3821A4A4E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/auth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = auth.cpp; path = cpr/auth.cpp; sourceTree = SOURCE_ROOT; };
+		3408DEE962CB41489199B39D /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/auth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = auth.h; path = include/cpr/auth.h; sourceTree = SOURCE_ROOT; };
+		34D1CD82F91642AAB2B8DFCA /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/parameters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameters.h; path = include/cpr/parameters.h; sourceTree = SOURCE_ROOT; };
+		3598ECAB595B4F93B9ACF91D /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/error.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = error.cpp; path = cpr/error.cpp; sourceTree = SOURCE_ROOT; };
+		3BAB1003BD324F50A8CB993F /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/proxies.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proxies.cpp; path = cpr/proxies.cpp; sourceTree = SOURCE_ROOT; };
+		3F395CF34D1C412EA96CD77E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cprtypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cprtypes.cpp; path = cpr/cprtypes.cpp; sourceTree = SOURCE_ROOT; };
+		463A4C2909424F738BF5FF66 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/timeout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timeout.h; path = include/cpr/timeout.h; sourceTree = SOURCE_ROOT; };
+		4E23451099D14F3F84EDBE49 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cpr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cpr.h; path = include/cpr/cpr.h; sourceTree = SOURCE_ROOT; };
+		51C3E28664BC40C6B0F7FE23 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/response.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = response.h; path = include/cpr/response.h; sourceTree = SOURCE_ROOT; };
+		5AB59D5755E1429CB61ACBFC /* /Users/bernardtaloza/Documents/cppworks/cpr/release/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6AC56954A57C4D5287EBFB33 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cookies.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cookies.cpp; path = cpr/cookies.cpp; sourceTree = SOURCE_ROOT; };
+		8540CDD088234855B193F020 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/multipart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = multipart.h; path = include/cpr/multipart.h; sourceTree = SOURCE_ROOT; };
+		85C8198E630B48B38B344280 /* /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr/CMakeFiles/cpr.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../build_ios/build.debug/build.arm/cpr/CMakeFiles/cpr.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		865EB356FB8A40879445AE64 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/digest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = digest.h; path = include/cpr/digest.h; sourceTree = SOURCE_ROOT; };
+		8BEFD9B99574450EAD3F29B3 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/payload.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = payload.h; path = include/cpr/payload.h; sourceTree = SOURCE_ROOT; };
+		8E0D74439573445EBF853144 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = cpr/util.cpp; sourceTree = SOURCE_ROOT; };
+		9CA2E2ED6239407EAC25F930 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/payload.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payload.cpp; path = cpr/payload.cpp; sourceTree = SOURCE_ROOT; };
+		A1A67F02F1574A6DB440419B /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/parameters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameters.cpp; path = cpr/parameters.cpp; sourceTree = SOURCE_ROOT; };
+		A406AEC1652E404199CF1B09 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/digest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = digest.cpp; path = cpr/digest.cpp; sourceTree = SOURCE_ROOT; };
+		AC42EBA4333B4063B12B04C5 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = cpr/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BFFD073D1C34449FB46E9AD3 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/session.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = session.h; path = include/cpr/session.h; sourceTree = SOURCE_ROOT; };
+		C1247181214640EB95211D03 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/curlholder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = curlholder.h; path = include/cpr/curlholder.h; sourceTree = SOURCE_ROOT; };
+		C736D0BA9F224C2BA5CC0BBE /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/multipart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multipart.cpp; path = cpr/multipart.cpp; sourceTree = SOURCE_ROOT; };
+		CAFFFFF1C61449F08B086824 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/max_redirects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = max_redirects.h; path = include/cpr/max_redirects.h; sourceTree = SOURCE_ROOT; };
+		D6497B9D314B40B9B9B1511F /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = defines.h; path = include/cpr/defines.h; sourceTree = SOURCE_ROOT; };
+		DA15E327DE5240AE93F554E6 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = util.h; path = include/cpr/util.h; sourceTree = SOURCE_ROOT; };
+		EA755179662449F7A0692586 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/session.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = session.cpp; path = cpr/session.cpp; sourceTree = SOURCE_ROOT; };
+		EC24CE7778824C11AE32183A /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cookies.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cookies.h; path = include/cpr/cookies.h; sourceTree = SOURCE_ROOT; };
+		F581A64E5E554CE28FA8FB10 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/body.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = body.h; path = include/cpr/body.h; sourceTree = SOURCE_ROOT; };
+		FF4CA624B6CA4B97A2355572 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/proxies.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = proxies.h; path = include/cpr/proxies.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		20F20B016D4B4253A9BF5439 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		422093AB8AD9443CB4ED3834 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DCA58E5AC084795A2F34ADA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8557869F2B0346D48224D1AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2091E47DAD8D4A9F93A7D759 /* cpr */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D75A14423D9462CA6DF3A14 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				20F20B016D4B4253A9BF5439 /* CMake Rules */,
+				5AB59D5755E1429CB61ACBFC /* /Users/bernardtaloza/Documents/cppworks/cpr/release/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B217E475A7694DC0AC2DE70E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				29635696952A45C3821A4A4E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/auth.cpp */,
+				6AC56954A57C4D5287EBFB33 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cookies.cpp */,
+				3F395CF34D1C412EA96CD77E /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cprtypes.cpp */,
+				A406AEC1652E404199CF1B09 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/digest.cpp */,
+				3598ECAB595B4F93B9ACF91D /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/error.cpp */,
+				C736D0BA9F224C2BA5CC0BBE /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/multipart.cpp */,
+				A1A67F02F1574A6DB440419B /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/parameters.cpp */,
+				9CA2E2ED6239407EAC25F930 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/payload.cpp */,
+				3BAB1003BD324F50A8CB993F /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/proxies.cpp */,
+				EA755179662449F7A0692586 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/session.cpp */,
+				8E0D74439573445EBF853144 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/util.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B6BF3CFA546046E6A6703BF2 = {
+			isa = PBXGroup;
+			children = (
+				D1384E8535F6499DB35C65ED /* Sources */,
+				422093AB8AD9443CB4ED3834 /* Resources */,
+				8557869F2B0346D48224D1AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA04DFA86EE241EFAC19FBC1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7DCA58E5AC084795A2F34ADA /* CMake Rules */,
+				052FF8FBFFCA4A6CBF556C90 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		CA29D872224A4B4B9FBACA0D /* cpr */ = {
+			isa = PBXGroup;
+			children = (
+				B217E475A7694DC0AC2DE70E /* Source Files */,
+				EF0D4D4590D94E70ABCF8312 /* Header Files */,
+				F8304E98FBE54D4EA4DD46BD /* Resources */,
+				AC42EBA4333B4063B12B04C5 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/CMakeLists.txt */,
+			);
+			name = cpr;
+			sourceTree = "<group>";
+		};
+		D1384E8535F6499DB35C65ED /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CA04DFA86EE241EFAC19FBC1 /* ZERO_CHECK */,
+				8D75A14423D9462CA6DF3A14 /* ALL_BUILD */,
+				CA29D872224A4B4B9FBACA0D /* cpr */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		EF0D4D4590D94E70ABCF8312 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				126D856C82A34B9F9C629F44 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/api.h */,
+				3408DEE962CB41489199B39D /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/auth.h */,
+				F581A64E5E554CE28FA8FB10 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/body.h */,
+				EC24CE7778824C11AE32183A /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cookies.h */,
+				4E23451099D14F3F84EDBE49 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cpr.h */,
+				1DD9B1EB8B894F13A3258F82 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cprtypes.h */,
+				C1247181214640EB95211D03 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/curlholder.h */,
+				D6497B9D314B40B9B9B1511F /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/defines.h */,
+				865EB356FB8A40879445AE64 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/digest.h */,
+				1868981B8C8F44B8B3D40922 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/error.h */,
+				CAFFFFF1C61449F08B086824 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/max_redirects.h */,
+				8540CDD088234855B193F020 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/multipart.h */,
+				34D1CD82F91642AAB2B8DFCA /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/parameters.h */,
+				8BEFD9B99574450EAD3F29B3 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/payload.h */,
+				FF4CA624B6CA4B97A2355572 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/proxies.h */,
+				51C3E28664BC40C6B0F7FE23 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/response.h */,
+				BFFD073D1C34449FB46E9AD3 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/session.h */,
+				463A4C2909424F738BF5FF66 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/timeout.h */,
+				DA15E327DE5240AE93F554E6 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/util.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F8304E98FBE54D4EA4DD46BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85C8198E630B48B38B344280 /* /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr/CMakeFiles/cpr.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D0F3B8C3EB4C4294F39A56 /* cpr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325660D361E4417DB4BC8EC4 /* Build configuration list for PBXNativeTarget "cpr" */;
+			buildPhases = (
+				A802DDF415D240B3883EA738 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268825D2A53F4021AFFD588A /* PBXTargetDependency */,
+			);
+			name = cpr;
+			productName = cpr;
+			productReference = 2091E47DAD8D4A9F93A7D759 /* cpr */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0871BBB5314BCCB8DF6292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 78EF1104567041E69D4666A4 /* Build configuration list for PBXProject "cpr" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B6D3A975761748869F2C7D1D /* Debug */,
+				A19F14F3396B4BD3A780F71D /* Release */,
+				8314A3E9F8704A9880ACA325 /* MinSizeRel */,
+				9F7AE9F6A6264111AC962228 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B6BF3CFA546046E6A6703BF2;
+			projectDirPath = /Users/bernardtaloza/Documents/cppworks/cpr/release;
+			projectRoot = "";
+			targets = (
+				33A803EC791743D3B53F076D /* ALL_BUILD */,
+				4B7937E5BF284B8FBA8E81AD /* ZERO_CHECK */,
+				A4D0F3B8C3EB4C4294F39A56 /* cpr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		875645129F244A29ADEB3816 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BE5AAF46A9A74113889C408B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C602617E80284D378F278211 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm -f /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F9C00D2433764C9FA2599E8D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm -f /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A802DDF415D240B3883EA738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637B842507A340D28D98EB46 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/auth.cpp */,
+				11E2E2164EA74E1290AC8698 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cookies.cpp */,
+				14B7DC51A18E410B846550BB /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/cprtypes.cpp */,
+				53008642206847D5A05FD239 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/digest.cpp */,
+				3EF7F680B1DA4378817C8765 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/error.cpp */,
+				D8BDF2B24E1549038171CDEE /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/multipart.cpp */,
+				8C0CDDF302314061AB204BBA /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/parameters.cpp */,
+				E21BFFBD11A240639B48C2E5 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/payload.cpp */,
+				88C17688D71945F7A8B82B27 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/proxies.cpp */,
+				9E5FC02DA9054D16903037B6 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/session.cpp */,
+				7173EC4AD4A94254AB075A27 /* /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/util.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268825D2A53F4021AFFD588A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7937E5BF284B8FBA8E81AD /* ZERO_CHECK */;
+			targetProxy = 6A65B4D9B58F45CBA6EEE0CF /* PBXContainerItemProxy */;
+		};
+		3012D8FB23994F0AB7C19714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7937E5BF284B8FBA8E81AD /* ZERO_CHECK */;
+			targetProxy = 29CD6C9CB1BE4360BD839110 /* PBXContainerItemProxy */;
+		};
+		61A96D9B18104D99B9912462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D0F3B8C3EB4C4294F39A56 /* cpr */;
+			targetProxy = 7F4B259D9AFE42A98F87ACD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		069E315B0EE54CCB9B3E4E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/Binaries/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/bernardtaloza/Documents/cppworks/cpr/release/include, "/Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -stdlib=libc++ -Wno-return-type-c-linkage -Wno-unneeded-internal-declaration -std=c++11 -fno-strict-aliasing  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cpr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1061971549D843529BC2FC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1D2E71AB280C4A3FB0C958E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		37F88D9E547544E99E5EBD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk;
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/build;
+			};
+			name = Debug;
+		};
+		3C1AE3D0A4F7458A9CD04C73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		6B518050BAEE4DB0BEBE429D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/Binaries/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/bernardtaloza/Documents/cppworks/cpr/release/include, "/Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -stdlib=libc++ -Wno-return-type-c-linkage -Wno-unneeded-internal-declaration -std=c++11 -fno-strict-aliasing  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cpr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		83599B2C5F474E749B62417A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		84A1B5169AC34BB8A4B6EEE0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk;
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/build;
+			};
+			name = MinSizeRel;
+		};
+		85A53C16C8FC41EAB8F032F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/Binaries/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/bernardtaloza/Documents/cppworks/cpr/release/include, "/Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -stdlib=libc++ -Wno-return-type-c-linkage -Wno-unneeded-internal-declaration -std=c++11 -fno-strict-aliasing  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cpr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		94A62246D19B4F0F80E1BF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9EABF7540F224122BEFC4808 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C453F642F0B04EBBAF59F547 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		E82C81B1704148928E1C246F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk;
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/build;
+			};
+			name = RelWithDebInfo;
+		};
+		E92229FC5CC64D99A8768C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E9380B7AEA7843F2B8053EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk;
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/build;
+			};
+			name = Release;
+		};
+		FB47C1E5EEBD4885A9964C1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/Binaries/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CMAKE_USE_OPENSSL, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/bernardtaloza/Documents/cppworks/cpr/release/include, "/Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility=hidden -fvisibility-inlines-hidden -stdlib=libc++ -Wno-return-type-c-linkage -Wno-unneeded-internal-declaration -std=c++11 -fno-strict-aliasing  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cpr;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardtaloza/Documents/cppworks/cpr/build_ios/build.debug/build.arm/cpr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325660D361E4417DB4BC8EC4 /* Build configuration list for PBXNativeTarget "cpr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A53C16C8FC41EAB8F032F3 /* Debug */,
+				069E315B0EE54CCB9B3E4E73 /* Release */,
+				FB47C1E5EEBD4885A9964C1C /* MinSizeRel */,
+				6B518050BAEE4DB0BEBE429D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		35D5AA47039E4EB78F1595D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83599B2C5F474E749B62417A /* Debug */,
+				1061971549D843529BC2FC27 /* Release */,
+				9EABF7540F224122BEFC4808 /* MinSizeRel */,
+				1D2E71AB280C4A3FB0C958E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78EF1104567041E69D4666A4 /* Build configuration list for PBXProject "cpr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F88D9E547544E99E5EBD61 /* Debug */,
+				E9380B7AEA7843F2B8053EF9 /* Release */,
+				84A1B5169AC34BB8A4B6EEE0 /* MinSizeRel */,
+				E82C81B1704148928E1C246F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A898A598C13A4622B6120E09 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A62246D19B4F0F80E1BF0A /* Debug */,
+				E92229FC5CC64D99A8768C19 /* Release */,
+				3C1AE3D0A4F7458A9CD04C73 /* MinSizeRel */,
+				C453F642F0B04EBBAF59F547 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0871BBB5314BCCB8DF6292 /* Project object */;
+}

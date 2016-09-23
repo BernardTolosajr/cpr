@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/cpr/session.cpp \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/session.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/auth.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/defines.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/body.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cookies.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/cprtypes.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/digest.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/max_redirects.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/multipart.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/to_string.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/parameters.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/payload.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/proxies.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/response.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/error.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/timeout.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include/curl/curl.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include/curl/curlver.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include/curl/curlbuild.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include/curl/curlrules.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include/curl/easy.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/../build_ios/curl-ios/include/curl/multi.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/curlholder.h \
+  /Users/bernardtaloza/Documents/cppworks/cpr/release/include/cpr/util.h
